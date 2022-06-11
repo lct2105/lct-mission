@@ -6,7 +6,7 @@
 -- ╚══════╝░╚════╝░░░░╚═╝░░░  ╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░░░░░░░╚═╝░░░
 
 
-local QBCore = exports['qb-core']:GetQBCoreObject()
+local QBCore = exports['qb-core']:GetCoreObject()
 
 QBCore.Functions.CreateCallback('lct-mission:server:CheckMission', function(source, cb, type)
     local src = source
