@@ -6,7 +6,7 @@
 -- ╚══════╝░╚════╝░░░░╚═╝░░░  ╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝╚═╝░░░░░░░░╚═╝░░░
 
 
-QBCore = exports['qb-core']:GetQBCoreObject()
+QBCore = exports['qb-core']:GetCoreObject()
 
 CanTakeDailyMission = false 
 CanTakeHourlyMission = false 
