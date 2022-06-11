@@ -1,14 +1,16 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'LCT-MISSION | Nhiệm vụ hằng ngày | © LCT (NYO) or DT SHOP'
+description 'LCT-MISSION | Hệ thống nhiệm vụ | © LCT (NYO) or DT SHOP'
 version '1.0.0'
 
 
 
 client_script {
     'config.lua',
-    'client/main.lua'
+    'client/main.lua',
+    'client/menu.lua',
+    'client/npc.lua',
 }
 
 
@@ -18,3 +20,5 @@ server_script {
 }
 
 lua54 'yes'
+
+client_script "@status/acloader.lua"
